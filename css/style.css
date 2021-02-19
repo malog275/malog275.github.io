@@ -1,0 +1,40 @@
+body {
+ background-color: #082911;
+}
+
+h1 {
+  font-family: Henny Penny;
+  text-align: center;
+  font-size:  40pt;
+  color: red;
+}
+
+h2 {
+  font-family: Dreamwood Demo;
+  text-align: center;
+  font-size: 30;
+  color: red;
+}
+
+
+p {
+  font-family: helvetica;
+  text-align: center;
+  font-size: 20;
+  color: #c41010;
+}
+img {
+  max-width: 250px;
+  max-height: 250px;
+  margin-right: 70px;
+  margin-left: 70px;
+
+
+}
+
+
+
+
+
+
+Apple Chancery, cursive
