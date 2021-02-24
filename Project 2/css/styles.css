@@ -11,6 +11,21 @@ body{
 
 }
 
+@font-face {
+   font-family: Whitelies;
+   src: url(WhiteLies-q9m0.otf);
+}
+
+* {
+   font-family: Whitelies;
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    line-height: 200%;
+  }
+}
+
 @keyframes change {
   0%{
     background-position: 0 50%;
@@ -867,7 +882,7 @@ body{
 }
 
 
-.sentence44a {
+.sentence {
   font-family: Whitelies;
   font-size: 20px;
   color: #f6dbff;
