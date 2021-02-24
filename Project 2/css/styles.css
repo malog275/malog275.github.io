@@ -135,7 +135,7 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #aef2ef;
-  top: 20px;
+  top: 780px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -186,7 +186,7 @@ body{
   font-family: Whitelies;
   font-size: 25px;
   color: #fcae26;
-  top: 85px;
+  top: 370px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -219,7 +219,7 @@ body{
   font-family: Whitelies;
   font-size: 50px;
   color: #f6dbff;
-  top: 80px;
+  top: 680px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -236,7 +236,7 @@ body{
   font-family: Whitelies;
   font-size: 30px;
   color: #65c27a;
-  top: 90px;
+  top: 270px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -267,7 +267,7 @@ body{
   font-family: Whitelies;
   font-size: 50px;
   color: #f6dbff;
-  top: 130px;
+  top: 449px;
   position: absolute;
   animation-duration: 15s;
   animation-name: slidein;
@@ -334,7 +334,7 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #aef2ef;
-  top: 120px;
+  top: 900px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -385,7 +385,7 @@ body{
   font-family: Whitelies;
   font-size: 25px;
   color: #fcae26;
-  top: 185px;
+  top: 630px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -418,7 +418,7 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #f5ee8e;
-  top: 180px;
+  top: 580px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -435,7 +435,7 @@ body{
   font-family: Whitelies;
   font-size: 30px;
   color: #65c27a;
-  top: 190px;
+  top: 100px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -451,7 +451,7 @@ body{
 .sentence19 {
   font-family: Whitelies;
   color: #fc03f8;
-  top: 190px;
+  top: 290px;
   z-index: -1;
   animation-duration: 60s;
   animation-name: slidein;
@@ -466,7 +466,7 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #aef2ef;
-  top: 200px;
+  top: 420px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -533,7 +533,7 @@ body{
   font-family: Whitelies;
   font-size: 30px;
   color: #65c27a;
-  top: 190px;
+  top: 580px;
   position: absolute;
   animation-duration: 30s;
   animation-name: slidein;
@@ -1671,6 +1671,700 @@ body{
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+}
+
+.sentence92 {
+  font-family: Whitelies;
+  color: #fc03f8;
+  top: 430px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+.sentence93 {
+  font-family: Whitelies;
+  font-size: 50px;
+  color: #65c27a;
+  top: 440px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 25s;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence94 {
+  font-family: Whitelies;
+  color: #fc03f8;
+  top: 470px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence95 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 480px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence96 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 490px;
+  z-index: -2;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence97 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 430px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 55s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence98 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 460px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence99 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 475px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence100 {
+  font-family: Whitelies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 495px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence101 {
+  font-family: Whitelies;
+  color: #cfa602;
+  top: 530px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence102 {
+  font-family: Whitelies;
+  font-size: 50px;
+  color: #f6dbff;
+  top: 490px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence103 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 500px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence104 {
+  font-family: Whitelies;
+  color: #fc03f8;
+  top: 530px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence105 {
+  font-family: Whitelies;
+  font-size: 50px;
+  color: #f6dbff;
+  top: 540px;
+  position: absolute;
+  animation-duration: 15s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence106 {
+  font-family: Whitelies;
+  color: #fc03f8;
+  top: 570px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence107 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 580px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence108 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 590px;
+  z-index: -2;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence109 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 530px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence110 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 560px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence111 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 575px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence112 {
+  font-family: Whitelies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 595px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence113 {
+  font-family: Whitelies;
+  color: #fc03f8;
+  top: 530px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence114 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 590px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence115 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 600px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence116 {
+  font-family: Whitelies;
+  color: #fc03f8;
+  top: 600px;
+  z-index: -1;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence117 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 610px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence118 {
+  font-family: Whitelies;
+  color: #fc03f8;
+  top: 640px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence119 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 240px;
+  z-index: -3;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 2s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence120 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 660px;
+  z-index: -2;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence121 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 600px;
+  position: absolute;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 50s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence122 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 620px;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence123 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 630px;
+  position: absolute;
+  animation-duration: 35s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence124 {
+  font-family: Whitelies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 665px;
+  position: absolute;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence125 {
+  font-family: Whitelies;
+  color: #cfa602;
+  top: 700px;
+  z-index: -1;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence126 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 660px;
+  position: absolute;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence127 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #f5ee8e;
+  top: 670px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence128 {
+  font-family: Whitelies;
+  color: #aef2ef;
+  top: 700px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence129 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 710px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence130 {
+  font-family: Whitelies;
+  color: #fc03f8;
+  top: 740px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence136 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 750px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence137 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 590px;
+  z-index: -2;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence138 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 530px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
   animation-fill-mode: both;
     text-shadow:  0 0 25px pink, 0 0 5px pink;
 
