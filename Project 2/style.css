@@ -30,6 +30,7 @@ a {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 120px;
+  font-family: arial;
 	line-height: .75;
 	margin: 10px 0;
 }
@@ -42,6 +43,7 @@ h2 {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 40px;
+  font-family: arial;
 	line-height: .75;
 	margin: 10px 0;
 }
