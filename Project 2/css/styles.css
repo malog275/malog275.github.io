@@ -1,0 +1,1664 @@
+body{
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg,#122754,#9fabc4,#041029,#01091a,black);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 30s ease-in-out infinite;
+  overflow-x: hidden;
+
+
+}
+
+@keyframes change {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+.sentence1 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 20px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: -90%;
+    width: 100%;
+  }
+}
+
+.sentence2 {
+  font-family: White Lies;
+  font-size: 50px;
+  color: #65c27a;
+  top: 30px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 25s;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence3 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 60px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence4 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 70px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence4a {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 80px;
+  z-index: -2;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence4b {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 20px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 55s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence5 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 50px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence6 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 65px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence6a {
+  font-family: White Lies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 85px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence7 {
+  font-family: White Lies;
+  color: #cfa602;
+  top: 120px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence7a {
+  font-family: White Lies;
+  font-size: 50px;
+  color: #f6dbff;
+  top: 80px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence7b {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 90px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence8 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 120px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence8a {
+  font-family: White Lies;
+  font-size: 50px;
+  color: #f6dbff;
+  top: 130px;
+  position: absolute;
+  animation-duration: 15s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence9 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 160px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence10 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 170px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence11 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 180px;
+  z-index: -2;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence12 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 120px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence13 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 150px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence14 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 165px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence15 {
+  font-family: White Lies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 185px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence16 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 120px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence17 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 180px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence18 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 190px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence19 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 190px;
+  z-index: -1;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence20 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 200px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence21 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 230px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence22 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 240px;
+  z-index: -3;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 2s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence23 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 250px;
+  z-index: -2;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence24 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 190px;
+  position: absolute;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 50s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence25 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 210px;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence26 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 220px;
+  position: absolute;
+  animation-duration: 35s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence27 {
+  font-family: White Lies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 245px;
+  position: absolute;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence28 {
+  font-family: White Lies;
+  color: #cfa602;
+  top: 290px;
+  z-index: -1;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence29 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 250px;
+  position: absolute;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence30 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #f5ee8e;
+  top: 260px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence31 {
+  font-family: White Lies;
+  color: #aef2ef;
+  top: 290px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence32 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 300px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence33 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 330px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence34 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 340px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence35 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 180px;
+  z-index: -2;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence36 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 120px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence37 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 150px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence38 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 165px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence39 {
+  font-family: White Lies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 185px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence40 {
+  font-family: White Lies;
+  color: #cfa602;
+  top: 120px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence41 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 180px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+
+
+.sentence42 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 190px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence43 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 20px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence44 {
+  font-family: White Lies;
+  font-size: 50px;
+  color: #f6dbff;
+  top: 30px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+
+.sentence44a {
+  font-family: White Lies;
+  font-size: 20px;
+  color: #f6dbff;
+  top: 30px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 60s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence45 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 60px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence46 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 70px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence47 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 80px;
+  z-index: -2;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence48 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #65c27a;
+  top: 20px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence49 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 50px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence50 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 65px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence51 {
+  font-family: White Lies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 85px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence52 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 120px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence53 {
+  font-family: White Lies;
+  font-size: 50px;
+  color: #f6dbff;
+  top: 80px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence54 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #f5ee8e;
+  top: 90px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence55 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 120px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence56 {
+  font-family: White Lies;
+  font-size: 50px;
+  color: #f6dbff;
+  top: 130px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence57 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 160px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence58 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 170px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence59 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 180px;
+  z-index: -2;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence60 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #65c27a;
+  top: 120px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence61 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 150px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence62 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 165px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence63 {
+  font-family: White Lies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 185px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence64 {
+  font-family: White Lies;
+  color: #cfa602;
+  top: 120px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence65 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 180px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence66 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #f5ee8e;
+  top: 190px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence67 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 190px;
+  z-index: -1;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow: , 0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence68 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 200px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence69 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 495px;
+  z-index: -3;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 10s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence70 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 490px;
+  z-index: -3;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 2s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence71 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 500px;
+  z-index: -2;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence72 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #fcae26;
+  top: 440px;
+  position: absolute;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 50s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence73 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 460px;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence74 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 470px;
+  position: absolute;
+  animation-duration: 35s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence75 {
+  font-family: White Lies;
+  font-size: 25px;
+  color: #f5ee8e;
+  top: 495px;
+  position: absolute;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence76 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 540px;
+  z-index: -1;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence77 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 540px;
+  z-index: -1;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 60s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+.sentence78 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 500px;
+  position: absolute;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence79 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 510px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence80 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 540px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence81 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 550px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence82 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 580px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence83 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 590px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence84 {
+  font-family: White Lies;
+  font-size: 15px;
+  color: #d761ff;
+  top: 430px;
+  z-index: -2;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+
+.sentence85 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 370px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence86 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 400px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence87 {
+  font-family: White Lies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 415px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence88 {
+  font-family: White Lies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 435px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence89 {
+  font-family: White Lies;
+  color: #fc03f8;
+  top: 370px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence90 {
+  font-family: White Lies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 410px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence91 {
+  font-family: White Lies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 440px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px pink, 0 0 5px pink;
+
+
+
+}
