@@ -102,7 +102,7 @@ body{
   font-family: Whitelies;
   font-size: 15px;
   color: #d761ff;
-  top: 70px;
+  top: 800px;
   z-index: -2;
   animation-duration: 30s;
   animation-name: slidein;
@@ -252,7 +252,7 @@ body{
 .sentence8 {
   font-family: Whitelies;
   color: #fc03f8;
-  top: 120px;
+  top: 620px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
@@ -283,7 +283,7 @@ body{
 .sentence9 {
   font-family: Whitelies;
   color: #fc03f8;
-  top: 160px;
+  top: 260px;
   z-index: -1;
   position: absolute;
   animation-duration: 40s;
@@ -301,7 +301,7 @@ body{
   font-family: Whitelies;
   font-size: 15px;
   color: #d761ff;
-  top: 170px;
+  top: 470px;
   z-index: -2;
   animation-duration: 30s;
   animation-name: slidein;
@@ -317,7 +317,7 @@ body{
   font-family: Whitelies;
   font-size: 15px;
   color: #d761ff;
-  top: 180px;
+  top: 780px;
   z-index: -2;
   animation-duration: 40s;
   animation-name: slidein;
@@ -351,7 +351,7 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #aef2ef;
-  top: 150px;
+  top: 350px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -368,7 +368,7 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #f5ee8e;
-  top: 165px;
+  top: 665px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -401,7 +401,7 @@ body{
 .sentence16 {
   font-family: Whitelies;
   color: #fc03f8;
-  top: 120px;
+  top: 320px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
@@ -416,7 +416,7 @@ body{
 
 .sentence17 {
   font-family: Whitelies;
-  font-size: 40px;
+  font-size: 740px;
   color: #f5ee8e;
   top: 580px;
   position: absolute;
@@ -433,7 +433,7 @@ body{
 
 .sentence18 {
   font-family: Whitelies;
-  font-size: 30px;
+  font-size: 230px;
   color: #65c27a;
   top: 100px;
   position: absolute;
@@ -451,7 +451,7 @@ body{
 .sentence19 {
   font-family: Whitelies;
   color: #fc03f8;
-  top: 290px;
+  top: 390px;
   z-index: -1;
   animation-duration: 60s;
   animation-name: slidein;
