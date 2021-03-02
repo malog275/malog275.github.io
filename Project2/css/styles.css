@@ -40,6 +40,7 @@ audio {
     line-height: 200%;
     overflow-x: hidden;
     overflow-y: auto;
+    background-size: 400% 400%;
   }
 }
 
