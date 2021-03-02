@@ -2,16 +2,16 @@
 body {
 	background-color: #111;
 }
-/* @font-face {
+ @font-face {
    font-family: Whitelies;
    src: url(WhiteLies-q9m0.otf);
 }
 
 * {
    font-family: Whitelies;
-} */
+}
 .title {
-	font-family: Arial;
+	font-family: WhiteLies;
 	text-align: center;
 	color: #FFF;
 	display: flex;
@@ -23,27 +23,40 @@ body {
 }
 
 a {
-	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
+
 	font-size: 120px;
-  font-family: arial;
+  font-family: Whitelies;
 	line-height: .75;
 	margin: 10px 0;
+	color: #51ad56;
+	text-shadow:  0 0 25px white, 0 0 5px white;
+}
+
+a:link {
+    text-decoration: none;
+    color: #51ad56;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #51ad56;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c7c4b5;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 h2 {
-	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
+
 	font-size: 40px;
-  font-family: arial;
+  font-family: Whitelies;
 	line-height: .75;
 	margin: 10px 0;
+	color: #51ad56;
+	text-shadow:  0 0 25px white, 0 0 5px white;
 }
