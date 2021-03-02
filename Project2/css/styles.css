@@ -12,6 +12,15 @@ body{
 
 }
 
+audio {
+  width: 100px;
+  display: block;
+  margin:20px;
+  z-index: auto;
+  color: black;
+  
+}
+
 @font-face {
    font-family: Whitelies;
    src: url(WhiteLies-q9m0.otf);
