@@ -1,14 +1,30 @@
 body{
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   color: #fff;
   background: linear-gradient(-45deg,#122754,#9fabc4,#041029,#01091a,black);
   background-size: 400% 400%;
   position: relative;
   animation: change 30s ease-in-out infinite;
   overflow-x: hidden;
+  overflow-y: auto;
 
 
+}
+
+@font-face {
+   font-family: Whitelies;
+   src: url(WhiteLies-q9m0.otf);
+}
+
+* {
+   font-family: Whitelies;
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    line-height: 200%;
+  }
 }
 
 @keyframes change {
@@ -23,12 +39,16 @@ body{
   }
 }
 
+.box {
+  height: 1000px;
+}
+
 .sentence1 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 20px;
+  color: #fac105
+  top: 820px;
   z-index: -1;
-  animation-duration: 40s;
+  animation-duration: 39s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
@@ -44,7 +64,7 @@ body{
   }
 
   to {
-    margin-left: -90%;
+    margin-left: -110%;
     width: 100%;
   }
 }
@@ -53,7 +73,7 @@ body{
   font-family: Whitelies;
   font-size: 50px;
   color: #65c27a;
-  top: 30px;
+  top: 840px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -68,14 +88,14 @@ body{
 
 .sentence3 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 60px;
+  color: #fac105
+  top: 860px;
   z-index: -1;
   position: absolute;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 13s;
   animation-fill-mode: both;
     text-shadow: 0 0 25px pink, 0 0 5px pink;
 
@@ -86,15 +106,15 @@ body{
 .sentence4 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 70px;
+  color: #059efc;
+  top: 800px;
   z-index: -2;
   animation-duration: 30s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation delay: 5s;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -102,14 +122,14 @@ body{
 .sentence4a {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 80px;
+  color: #059efc;
+  top: 880px;
   z-index: -2;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -120,14 +140,14 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #aef2ef;
-  top: 20px;
+  top: 780px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 55s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -137,14 +157,14 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #aef2ef;
-  top: 50px;
+  top: 900px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 40s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -154,14 +174,14 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #f5ee8e;
-  top: 65px;
+  top: 920px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 40s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -171,7 +191,7 @@ body{
   font-family: Whitelies;
   font-size: 25px;
   color: #fcae26;
-  top: 85px;
+  top: 960px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -187,12 +207,12 @@ body{
 .sentence7 {
   font-family: Whitelies;
   color: #cfa602;
-  top: 120px;
+  top: 980px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 28s;
   position: absolute;
   animation-fill-mode: both;
   text-shadow: 0 0 25px pink, 0 0 5px pink;
@@ -204,7 +224,7 @@ body{
   font-family: Whitelies;
   font-size: 50px;
   color: #f6dbff;
-  top: 80px;
+  top: 1000px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
@@ -221,14 +241,14 @@ body{
   font-family: Whitelies;
   font-size: 30px;
   color: #65c27a;
-  top: 90px;
+  top: 1000px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 30s;
+  animation-delay: 35s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -236,14 +256,14 @@ body{
 
 .sentence8 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 120px;
+  color: #fac105
+  top: 620px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -252,14 +272,14 @@ body{
   font-family: Whitelies;
   font-size: 50px;
   color: #f6dbff;
-  top: 130px;
+  top: -1px;
   position: absolute;
   animation-duration: 15s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 5s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -267,16 +287,16 @@ body{
 
 .sentence9 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 160px;
+  color: #fac105
+  top: -2px;
   z-index: -1;
   position: absolute;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 19s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -285,15 +305,15 @@ body{
 .sentence10 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 170px;
+  color: #059efc;
+  top: -3px;
   z-index: -2;
   animation-duration: 30s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation delay: 5s;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -301,14 +321,14 @@ body{
 .sentence11 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 180px;
+  color: #059efc;
+  top: 788px;
   z-index: -2;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -319,14 +339,14 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #aef2ef;
-  top: 120px;
+  top: 900px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 10s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -336,14 +356,14 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #aef2ef;
-  top: 150px;
+  top: -4px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 21s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -353,14 +373,14 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #f5ee8e;
-  top: 165px;
+  top: 665px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 40s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -370,14 +390,14 @@ body{
   font-family: Whitelies;
   font-size: 25px;
   color: #fcae26;
-  top: 185px;
+  top: 630px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 15s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -385,16 +405,16 @@ body{
 
 .sentence16 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 120px;
+  color: #fac105
+  top: 320px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 22s;
   position: absolute;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -403,14 +423,14 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #f5ee8e;
-  top: 180px;
+  top: 580px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 30s;
+  animation-delay: 36s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -420,14 +440,14 @@ body{
   font-family: Whitelies;
   font-size: 30px;
   color: #65c27a;
-  top: 190px;
+  top: 100px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 40s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -435,14 +455,14 @@ body{
 
 .sentence19 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 190px;
+  color: #fac105
+  top: 390px;
   z-index: -1;
   animation-duration: 60s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -451,14 +471,14 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #aef2ef;
-  top: 200px;
+  top: 420px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 12s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -466,7 +486,7 @@ body{
 
 .sentence21 {
   font-family: Whitelies;
-  color: #fc03f8;
+  color: #fac105
   top: 230px;
   z-index: -1;
   position: absolute;
@@ -475,7 +495,7 @@ body{
   animation-iteration-count: infinite;
   animation-delay: 15s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -484,7 +504,7 @@ body{
 .sentence22 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
+  color: #059efc;
   top: 240px;
   z-index: -3;
   animation-duration: 50s;
@@ -492,7 +512,7 @@ body{
   animation-iteration-count: infinite;
   animation delay: 2s;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -500,14 +520,14 @@ body{
 .sentence23 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
+  color: #059efc;
   top: 250px;
   z-index: -2;
   animation-duration: 60s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -518,14 +538,14 @@ body{
   font-family: Whitelies;
   font-size: 30px;
   color: #65c27a;
-  top: 190px;
+  top: 580px;
   position: absolute;
   animation-duration: 30s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 50s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -540,7 +560,7 @@ body{
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 30s;
+  animation-delay: 37s;
   animation-fill-mode: both;
     text-shadow: 0 0 25px pink, 0 0 5px pink;
 
@@ -557,9 +577,9 @@ body{
   animation-duration: 35s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 24s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -574,9 +594,9 @@ body{
   animation-duration: 60s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 26s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -593,7 +613,7 @@ body{
   animation-delay: 15s;
   position: absolute;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -609,7 +629,7 @@ body{
   animation-iteration-count: infinite;
   animation-delay: 40s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -619,14 +639,14 @@ body{
   font-family: Whitelies;
   font-size: 30px;
   color: #f5ee8e;
-  top: 260px;
+  top: 266px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 40s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -641,7 +661,7 @@ body{
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -655,9 +675,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 5s;
+  animation-delay: 65s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -665,16 +685,16 @@ body{
 
 .sentence33 {
   font-family: Whitelies;
-  color: #fc03f8;
+  color: #fac105
   top: 330px;
   z-index: -1;
   position: absolute;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 14s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -683,7 +703,7 @@ body{
 .sentence34 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
+  color: #059efc;
   top: 340px;
   z-index: -2;
   animation-duration: 30s;
@@ -691,7 +711,7 @@ body{
   animation-iteration-count: infinite;
   animation delay: 5s;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -699,14 +719,14 @@ body{
 .sentence35 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 180px;
+  color: #059efc;
+  top: 360px;
   z-index: -2;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -717,14 +737,14 @@ body{
   font-family: Whitelies;
   font-size: 30px;
   color: #65c27a;
-  top: 120px;
+  top: 138px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 16s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -734,14 +754,14 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #aef2ef;
-  top: 150px;
+  top: 500px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 27s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -758,7 +778,7 @@ body{
   animation-iteration-count: infinite;
   animation-delay: 40s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -768,14 +788,14 @@ body{
   font-family: Whitelies;
   font-size: 25px;
   color: #fcae26;
-  top: 185px;
+  top: 428px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 15s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -784,15 +804,15 @@ body{
 .sentence40 {
   font-family: Whitelies;
   color: #cfa602;
-  top: 120px;
+  top: 421px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 28s;
   position: absolute;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -801,12 +821,12 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #f5ee8e;
-  top: 180px;
+  top: 286px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 30s;
+  animation-delay: 3s;
   animation-fill-mode: both;
   text-shadow: 0 0 25px pink, 0 0 5px pink;
 
@@ -820,14 +840,14 @@ body{
   font-family: Whitelies;
   font-size: 30px;
   color: #65c27a;
-  top: 190px;
+  top: 390px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 40s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -835,14 +855,14 @@ body{
 
 .sentence43 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 20px;
+  color: #fac105
+  top: 850px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -853,14 +873,14 @@ body{
   font-family: Whitelies;
   font-size: 50px;
   color: #f6dbff;
-  top: 30px;
+  top: 438px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 5s;
+  animation-delay: 9s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -871,14 +891,14 @@ body{
   font-family: Whitelies;
   font-size: 20px;
   color: #f6dbff;
-  top: 30px;
+  top: 58px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-delay: 60s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -886,16 +906,16 @@ body{
 
 .sentence45 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 60px;
+  color: #fac105
+  top: 68px;
   z-index: -1;
   position: absolute;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 18s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -904,15 +924,15 @@ body{
 .sentence46 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 70px;
+  color: #059efc;
+  top: 500px;
   z-index: -2;
   animation-duration: 30s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation delay: 5s;
+  animation delay: 6s;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -920,14 +940,15 @@ body{
 .sentence47 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 80px;
+  color: #059efc;
+  top: 87px;
   z-index: -2;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+  animation-delay: 28s;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -943,9 +964,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 21s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -955,14 +976,14 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #aef2ef;
-  top: 50px;
+  top: 56px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 31s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -977,9 +998,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 40s;
+  animation-delay: 46s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -994,9 +1015,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 15s;
+  animation-delay: 17s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1004,16 +1025,16 @@ body{
 
 .sentence52 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 120px;
+  color: #fac105
+  top: 198px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 25s;
   position: absolute;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1022,14 +1043,14 @@ body{
   font-family: Whitelies;
   font-size: 50px;
   color: #f6dbff;
-  top: 80px;
+  top: 83px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 30s;
+  animation-delay: 37s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1044,9 +1065,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 40s;
+  animation-delay: 44s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1054,14 +1075,14 @@ body{
 
 .sentence55 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 120px;
+  color: #fac105
+  top: 225px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1070,14 +1091,14 @@ body{
   font-family: Whitelies;
   font-size: 50px;
   color: #f6dbff;
-  top: 130px;
+  top: 330px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 5s;
+  animation-delay: 8s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1085,16 +1106,16 @@ body{
 
 .sentence57 {
   font-family: Whitelies;
-  color: #fc03f8;
-  top: 160px;
+  color: #fac105
+  top: 460px;
   z-index: -1;
   position: absolute;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 11s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1103,15 +1124,15 @@ body{
 .sentence58 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 170px;
+  color: #059efc;
+  top: 120px;
   z-index: -2;
   animation-duration: 30s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation delay: 5s;
+  animation delay: 13s;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1119,14 +1140,14 @@ body{
 .sentence59 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 180px;
+  color: #059efc;
+  top: 188px;
   z-index: -2;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1137,14 +1158,14 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #65c27a;
-  top: 120px;
+  top: 329px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 16s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1154,14 +1175,14 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #aef2ef;
-  top: 150px;
+  top: 450px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 23s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1171,14 +1192,14 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #f5ee8e;
-  top: 165px;
+  top: 665px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 40s;
+  animation-delay: 43s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1188,14 +1209,14 @@ body{
   font-family: Whitelies;
   font-size: 25px;
   color: #fcae26;
-  top: 185px;
+  top: 285px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 15s;
+  animation-delay: 18s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1204,15 +1225,15 @@ body{
 .sentence64 {
   font-family: Whitelies;
   color: #cfa602;
-  top: 120px;
+  top: 122px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 28s;
   position: absolute;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1221,14 +1242,14 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #f5ee8e;
-  top: 180px;
+  top: 540px;
   position: absolute;
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 30s;
+  animation-delay: 39s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1243,9 +1264,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 40s;
+  animation-delay: 50s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1253,13 +1274,14 @@ body{
 
 .sentence67 {
   font-family: Whitelies;
-  color: #fc03f8;
+  color: #fac105
   top: 190px;
   z-index: -1;
   animation-duration: 60s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
+  animation-delay: 3s;
   text-shadow: , 0 0 25px pink, 0 0 5px pink;
 
 
@@ -1274,9 +1296,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 12s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1285,7 +1307,7 @@ body{
 .sentence69 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
+  color: #059efc;
   top: 495px;
   z-index: -3;
   animation-duration: 50s;
@@ -1293,7 +1315,7 @@ body{
   animation-iteration-count: infinite;
   animation delay: 10s;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1301,7 +1323,7 @@ body{
 .sentence70 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
+  color: #059efc;
   top: 490px;
   z-index: -3;
   animation-duration: 50s;
@@ -1309,7 +1331,7 @@ body{
   animation-iteration-count: infinite;
   animation delay: 2s;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1317,14 +1339,15 @@ body{
 .sentence71 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
-  top: 500px;
+  color: #059efc;
+  top: 568px;
   z-index: -2;
   animation-duration: 60s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+  animation-delay: 55s;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1340,7 +1363,7 @@ body{
   animation-duration: 30s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 50s;
+  animation-delay: 52s;
   animation-fill-mode: both;
     text-shadow: 0 0 25px pink, 0 0 5px pink;
 
@@ -1357,9 +1380,9 @@ body{
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 30s;
+  animation-delay: 59s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1369,14 +1392,14 @@ body{
   font-family: Whitelies;
   font-size: 10px;
   color: #f5ee8e;
-  top: 470px;
+  top: 473px;
   position: absolute;
   animation-duration: 35s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 27s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1391,9 +1414,9 @@ body{
   animation-duration: 60s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 29s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1401,23 +1424,23 @@ body{
 
 .sentence76 {
   font-family: Whitelies;
-  color: #fc03f8;
+  color: #fac105
   top: 540px;
   z-index: -1;
   animation-duration: 30s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 15s;
+  animation-delay: 17s;
   position: absolute;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
 
 .sentence77 {
   font-family: Whitelies;
-  color: #fc03f8;
+  color: #fac105
   top: 540px;
   z-index: -1;
   animation-duration: 30s;
@@ -1426,7 +1449,7 @@ body{
   animation-delay: 60s;
   position: absolute;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1434,14 +1457,14 @@ body{
   font-family: Whitelies;
   font-size: 40px;
   color: #f5ee8e;
-  top: 500px;
+  top: 568px;
   position: absolute;
   animation-duration: 60s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 40s;
+  animation-delay: 59s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1456,9 +1479,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 40s;
+  animation-delay: 52s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1466,14 +1489,14 @@ body{
 
 .sentence80 {
   font-family: Whitelies;
-  color: #fc03f8;
+  color: #fac105
   top: 540px;
   z-index: -1;
-  animation-duration: 40s;
+  animation-duration: 42s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1487,9 +1510,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 5s;
+  animation-delay: 63s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1497,16 +1520,16 @@ body{
 
 .sentence82 {
   font-family: Whitelies;
-  color: #fc03f8;
+  color: #fac105
   top: 580px;
   z-index: -1;
   position: absolute;
-  animation-duration: 40s;
+  animation-duration: 44s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 17s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1515,15 +1538,15 @@ body{
 .sentence83 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
+  color: #059efc;
   top: 590px;
   z-index: -2;
   animation-duration: 30s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation delay: 5s;
+  animation delay: 1s;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1531,14 +1554,14 @@ body{
 .sentence84 {
   font-family: Whitelies;
   font-size: 15px;
-  color: #d761ff;
+  color: #059efc;
   top: 430px;
   z-index: -2;
-  animation-duration: 40s;
+  animation-duration: 45s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   position: absolute;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1554,9 +1577,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 10s;
+  animation-delay: 19s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1571,9 +1594,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 31s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1588,9 +1611,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 40s;
+  animation-delay: 52s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1607,7 +1630,7 @@ body{
   animation-iteration-count: infinite;
   animation-delay: 15s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1615,16 +1638,16 @@ body{
 
 .sentence89 {
   font-family: Whitelies;
-  color: #fc03f8;
+  color: #fac105
   top: 370px;
   z-index: -1;
   animation-duration: 40s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 20s;
+  animation-delay: 22s;
   position: absolute;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 }
@@ -1638,9 +1661,9 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  animation-delay: 30s;
+  animation-delay: 68s;
   animation-fill-mode: both;
-  text-shadow:  0 0 25px pink, 0 0 5px pink;
+  text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
@@ -1655,9 +1678,720 @@ body{
   animation-duration: 50s;
   animation-name: slidein;
   animation-iteration-count: infinite;
+  animation-delay: 46s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+}
+
+.sentence92 {
+  font-family: Whitelies;
+  color: #fac105
+  top: 430px;
+  z-index: -1;
+  animation-duration: 46s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+
+.sentence93 {
+  font-family: Whitelies;
+  font-size: 50px;
+  color: #65c27a;
+  top: 440px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 25s;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence94 {
+  font-family: Whitelies;
+  color: #fac105
+  top: 477px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 23s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence95 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #059efc;
+  top: 480px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+.sentence96 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #059efc;
+  top: 490px;
+  z-index: -2;
+  animation-duration: 48s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+
+
+.sentence97 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 430px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 58s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence98 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 460px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
   animation-delay: 40s;
   animation-fill-mode: both;
-    text-shadow:  0 0 25px pink, 0 0 5px pink;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence99 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 475px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 23s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence100 {
+  font-family: Whitelies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 495px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 14s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence101 {
+  font-family: Whitelies;
+  color: #cfa602;
+  top: 530px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 26s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+}
+
+.sentence102 {
+  font-family: Whitelies;
+  font-size: 50px;
+  color: #f6dbff;
+  top: 490px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence103 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 523px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 32s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence104 {
+  font-family: Whitelies;
+  color: #fac105
+  top: 530px;
+  z-index: -1;
+  animation-duration: 49s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+.sentence105 {
+  font-family: Whitelies;
+  font-size: 50px;
+  color: #f6dbff;
+  top: 540px;
+  position: absolute;
+  animation-duration: 15s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 58s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence106 {
+  font-family: Whitelies;
+  color: #fac105
+  top: 570px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 16s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence107 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #059efc;
+  top: 580px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+.sentence108 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #059efc;
+  top: 590px;
+  z-index: -2;
+  animation-duration: 41s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+
+
+.sentence109 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 530px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence110 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 560px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 29s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence111 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 575px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence112 {
+  font-family: Whitelies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 595px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence113 {
+  font-family: Whitelies;
+  color: #fac105
+  top: 530px;
+  z-index: -1;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 27s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+.sentence114 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 590px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 33s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence115 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 600px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence116 {
+  font-family: Whitelies;
+  color: #fac105
+  top: 600px;
+  z-index: -1;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+.sentence117 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 610px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 12s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence118 {
+  font-family: Whitelies;
+  color: #fac105
+  top: 640px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence119 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #059efc;
+  top: 240px;
+  z-index: -3;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 2s;
+  position: absolute;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+.sentence120 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #059efc;
+  top: 660px;
+  z-index: -2;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+
+
+.sentence121 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 600px;
+  position: absolute;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 50s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence122 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #aef2ef;
+  top: 623px;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 34s;
+  animation-fill-mode: both;
+    text-shadow: 0 0 25px pink, 0 0 5px pink;
+
+
+
+}
+
+.sentence123 {
+  font-family: Whitelies;
+  font-size: 10px;
+  color: #f5ee8e;
+  top: 630px;
+  position: absolute;
+  animation-duration: 35s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 34s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence124 {
+  font-family: Whitelies;
+  font-size: 25px;
+  color: #fcae26;
+  top: 665px;
+  position: absolute;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence125 {
+  font-family: Whitelies;
+  color: #cfa602;
+  top: 700px;
+  z-index: -1;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+  position: absolute;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+.sentence126 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #f5ee8e;
+  top: 660px;
+  position: absolute;
+  animation-duration: 60s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence127 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #f5ee8e;
+  top: 670px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence128 {
+  font-family: Whitelies;
+  color: #aef2ef;
+  top: 700px;
+  z-index: -1;
+  animation-duration: 45s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+.sentence129 {
+  font-family: Whitelies;
+  font-size: 40px;
+  color: #aef2ef;
+  top: 710px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+  text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence130 {
+  font-family: Whitelies;
+  color: #fac105
+  top: 740px;
+  z-index: -1;
+  position: absolute;
+  animation-duration: 40s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 9s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence131 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #059efc;
+  top: 750px;
+  z-index: -2;
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation delay: 5s;
+  position: absolute;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+.sentence132 {
+  font-family: Whitelies;
+  font-size: 15px;
+  color: #059efc;
+  top: 590px;
+  z-index: -2;
+  animation-duration: 46s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  position: absolute;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+}
+
+
+
+.sentence133 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 530px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 7s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
+
+
+
+}
+
+.sentence134 {
+  font-family: Whitelies;
+  font-size: 30px;
+  color: #65c27a;
+  top: 530px;
+  position: absolute;
+  animation-duration: 50s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-delay: 7s;
+  animation-fill-mode: both;
+    text-shadow:  0 0 25px white, 0 0 5px white;
 
 
 
