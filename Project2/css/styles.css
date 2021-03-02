@@ -18,7 +18,7 @@ audio {
   margin:20px;
   z-index: auto;
   color: black;
-  
+
 }
 
 @font-face {
@@ -30,7 +30,7 @@ audio {
    font-family: Whitelies;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   div {
     line-height: 200%;
   }
