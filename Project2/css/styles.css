@@ -1,5 +1,7 @@
 html {
+
    overflow-x: hidden;
+
 }
 
 body{
@@ -21,6 +23,7 @@ audio {
   display: block;
   margin:20px;
   z-index: auto;
+  color: black;
 
 }
 
@@ -38,8 +41,6 @@ audio {
     line-height: 200%;
     overflow-x: hidden;
     overflow-y: auto;
-    background: linear-gradient(-45deg,#122754,#9fabc4,#041029,#01091a,black);
-    background-size: 400% 400%;
   }
 }
 
