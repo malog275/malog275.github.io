@@ -1,0 +1,12 @@
+body {
+  background-color: purple;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 100px;
+}
+
+h1:hover {
+  font-size: 150px;
+}

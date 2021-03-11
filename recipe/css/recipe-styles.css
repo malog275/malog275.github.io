@@ -1,0 +1,31 @@
+body {
+  background-color: blue;
+}
+
+h1 {
+  font-family: arial;
+  text-align: center;
+}
+
+h2 {
+  font-family: arial;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+}
+
+ul {
+  font-family: helvetica;
+}
+
+ol {
+  font-family: Tahoma;
+}
+
+.recipe {
+  margin: 40px auto;
+  max-width: 1000px;
+  color: pink;
+}
