@@ -1,0 +1,24 @@
+html {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2  {
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul {
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+
+h1  {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 40px;
+  text-align: center;
+}
