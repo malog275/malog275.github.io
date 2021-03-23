@@ -3,17 +3,22 @@ html {
   margin-right: 50px;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: blue;
 }
 
 h2  {
-  font-family: arial;
+  font-family: 'Ranchers', cursive;
   font-size: 30px;
   text-align: center;
+  color: blue;
+  letter-spacing: 10px;
 }
 
 ul {
-  font-family: helvetica;
+  font-family: 'Lexend', sans-serif;
   font-size: 20px;
+  color: green;
+  letter-spacing: 2px;
 }
 
 
@@ -21,4 +26,13 @@ h1  {
   font-family: 'Akaya Telivigala', cursive;
   font-size: 40px;
   text-align: center;
+  color: purple;
+  letter-spacing: 5px;
+  background-color: Green;
+}
+
+.everything {
+  background-color: black;
+  margin: 40px;
+  padding: 40px;
 }
