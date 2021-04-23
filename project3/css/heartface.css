@@ -1,0 +1,12 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1500px;
+  background: linear-gradient(180deg, #CB75D2 0%, rgba(255, 247, 244, 0.49) 49.48%, #F015B3 100%);
+}
+
+img {
+  width: 1900px;
+  height: 750px;
+
+}
