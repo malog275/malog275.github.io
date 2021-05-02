@@ -22,7 +22,7 @@ function putCloudsAllOverPage() {
   // Math.floor is whole numbers //
 }
 
-document.addEvenListener('keydown', addClouds);
+document.addEventListener('keydown', addClouds);
 
 function addClouds() {
   if (event.key === "b") {
