@@ -1,0 +1,14 @@
+body {
+  background-image: url("../images/sunnyday.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1239px 887px;
+}
+
+.no_scroll_krokgo {
+  overflow-y: hidden;
+}
+
+img {
+  max-height: 300px;
+  max-width: 300px;
+}
