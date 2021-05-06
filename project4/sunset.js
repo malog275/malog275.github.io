@@ -3,15 +3,15 @@ console.log("hello, georgia your javascript is working IF you can see this messa
 // function is your idea, recipe for you idea and contains all code for idea //
 function putCloudsAllOverPage() {
   // get all of the html elements that have the class bubble that ive written that I know are in my index.html //
-  let bubbles = document.querySelectorAll(".clouds")
+  let clouds = document.querySelectorAll(".clouds")
 
-  bubbles.forEach(function(clouds) {
-    let randomHorizontal = Math.floor(Math.random() * window.inner.innerWidth);
-    let randomVertical = Math.floor(Math.random() * window.inner.innerHeight);
+  clouds.forEach(function(clouds) {
+    let randomHorizontal = Math.floor(Math.random() * window.innerWidth);
+    let randomVertical = Math.floor(Math.random() * window.innerHeight);
 
-    console.log(randomHorizontal, randomVertical) // comma makes you call multiple variable at once//
-    bubble.style.top = randomVertical + "px";
-    bubble.style.left = randomHorizontal + "px"; // + px means pixels //
+  //  console.log(randomHorizontal, randomVertical) // comma makes you call multiple variable at once//
+    clouds.style.top = randomVertical + "px";
+    clouds.style.left = randomHorizontal + "px"; // + px means pixels //
     })
   // let is a variable always when you say let you name your variable and equal to something//
   // document means get the document and select all items //
@@ -23,16 +23,22 @@ function putCloudsAllOverPage() {
 }
 
 document.addEventListener('keydown', addClouds);
-
+let dayTimeArray = [
+  "images/sunset/sunsetcloud6.png",
+  "images/sunset/sunsetcloud2.png",
+];
 function addClouds() {
-  if (event.key === "b") {
-    let bubbleAdder = document.createElement("div");
-    bubbleAdder.classlist.add("clouds")
-    document.body.appendChild(cloudsAdder); //child and parent are html //
+    // console.log(dayTimeArray.length) //
+    let randomNumber = Math.floor(Math.random() * dayTimeArray.length);
+    console.log(randomNumber)
+    let cloudDiv = document.createElement("div");
+    cloudDiv.classList.add("clouds");
+    let cloudImage = document.createElement("img");
+    cloudImage.src = dayTimeArray[1];
+    cloudDiv.appendChild(cloudImage);
+    document.body.appendChild(cloudDiv); //child and parent are html //
     putCloudsAllOverPage();
-  } else {
 
-  }
 // if statememnt is used when you want something specific to happen //
 }
 //key down means everytime someone presses a key it runs the function or if it was click it runs everytime it clicks//

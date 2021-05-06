@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+
+body {
+  background-image: url("../images/night.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1500px 887px;
+}
+.alert {
+  padding: 20px;
+  background: rgba(216, 238, 251, 0.06); /* Red */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 15px;
+  font-family: helvetica;
+  height: 30px;
+  width: 170px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 3;
+
+}
+
+.home {
+  padding: 20px;
+  background: rgba(216, 238, 251, 0.06); /* Red */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 15px;
+  font-family: helvetica;
+  height: 20px;
+  width: 150px;
+  top: 3%;
+  left: 1%;
+  margin: 0;
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+
+}
+
+.home:hover {
+  background: lightgray;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c7c4b5;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+
+.no_scroll_krokgo {
+  overflow-y: hidden;
+}
+
+img {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.clouds {
+  position: absolute;
+}

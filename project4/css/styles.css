@@ -1,0 +1,66 @@
+@media screen and (max-width:320px) {
+  h1 {
+    font-size: 3em;
+  }
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+}
+
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+html {
+  background: linear-gradient(180deg, #FFFFFF 0%, #D2E3EC 100%);
+  height: 800px;
+}
+
+h1 {
+font-family: /* 'Lemonada', cursive 'Luckiest Guy', cursive */ 'Baloo 2', cursive;;
+background: -webkit-linear-gradient(#CCCACA
+, #E9E7E7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size: 120px;
+line-height: 288px;
+text-align: center;
+
+
+
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+
+  padding: 0;
+  margin-top: 60px;
+  list-style: none;
+
+}
+
+.flex-item img {
+  width: 60%;
+  height: 50%;
+  margin: 30px;
+  width: 400px;
+  max-height: 350px;
+
+}
+
+.flex-item:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
