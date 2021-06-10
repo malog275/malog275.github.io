@@ -1,0 +1,99 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1500px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.5) 10.94%, rgba(255, 177, 25, 0.450521) 33.85%, rgba(255, 235, 57, 0.387391) 52.08%, rgba(255, 218, 26, 0.5) 69.27%, rgba(255, 158, 89, 0.5) 84.37%, rgba(255, 5, 5, 0.5) 100%);
+}
+
+img {
+  width: 1900px;
+  height: 750px;
+
+}
+.image img {
+  max-width: 145px;
+  max-height:110px;
+}
+
+.image:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#prayer {
+  position: absolute;
+  left: 360px;
+  top: 29px;
+}
+
+#happy {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+left: 638px;
+top: 838px;
+
+}
+
+#heartface {
+position: absolute;
+width: 152px;
+height: 156px;
+left: 868px;
+top: 27px;
+}
+
+#hearts {
+position: absolute;
+width: 160px;
+height: 160px;
+left: 360px;
+top: 270px;
+}
+
+#lc {
+position: absolute;
+width: 160px;
+height: 160px;
+left: 865px;
+top: 270px;
+}
+
+#sad {
+position: absolute;
+width: 150px;
+height: 151px;
+left: 355px;
+top: 150px
+}
+
+#sc {
+position: absolute;
+width: 160px;
+height: 160px;
+left: 175px;
+top: 270px;
+}
+
+#cry {
+position: absolute;
+width: 150px;
+height: 151px;
+left: 15px;
+top: 390;
+}
+
+#stars {
+position: absolute;
+width: 150px;
+height: 151px;
+left: 170px;
+top: 150px;
+}
+
+#happy {
+  position: absolute;
+  width: 150px;
+  height: 151px;
+  left: 700px;
+top: 640px;
+}

@@ -32,6 +32,59 @@ text-align: center;
 
 }
 
+p {
+  display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+padding: 40px;
+font-family: /* 'Lemonada', cursive 'Luckiest Guy', cursive */ 'Baloo 2', cursive;
+color: gray;
+
+}
+
+.about {
+  padding: 20px;
+  background: rgba(216, 238, 251, 0.06); /* Red */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 15px;
+  font-family: helvetica;
+  height: 20px;
+  width: 150px;
+  top: 90%;
+  left: 1%;
+  margin: 0;
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+
+}
+
+.about:hover {
+  background: lightgray;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c7c4b5;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .flex-container {
   /* We first create a flex layout context */
   display: flex;

@@ -9,5 +9,79 @@
     <img src="images/hearts.png">
     <img src="images/hearts.png">
 
+    <div class="home">
+    <a href="index.html"> HOME </a>
+    </div>
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+    <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="title"> Red Heart </div>
+    <ul class="flex-container">
+      <li class="flex-item" id="apple"><img src="images/hearts/apple.png"></li>
+      <li class="flex-item" id="emojidex"><img src="images/hearts/emojidex.png"></li>
+      <li class="flex-item" id="fb"><img src="images/hearts/fb.png"></li>
+      <li class="flex-item" id="google"><img src="images/hearts/google.png"></li>
+      <li class="flex-item" id="joypixels"><img src="images/hearts/joypixels.png"></li>
+      <li class="flex-item" id="microsoft"><img src="images/hearts/microsoft.png"></li>
+      <li class="flex-item" id="openmoji"><img src="images/hearts/openmoji.png"></li>
+      <li class="flex-item" id="samsung"><img src="images/hearts/samsung.png"></li>
+      <li class="flex-item" id="twitter"><img src="images/hearts/twitter.png"></li>
+      <li class="flex-item" id="whatsapp"><img src="images/hearts/whatsapp.png"></li>
+
+    </ul>
+
+    <div class="info"> Info
+<br> <br> A classic red love heart emoji, used for expressions of love and romance. This is the most popular heart emoji A similar emoji exists for the heart suit in a deck of playing cards.
+
+On Snapchat, this emoji displays next to a friend when you have been #1 BFs with each other for two consecutive weeks.
+
+Red Heart was approved as part of Unicode 1.1 in 1993 under the name “Heavy Black Heart” and added to Emoji 1.0 in 2015.
+    </div>
+    <div class="program" id="program"> Apple <br> <br>
+Emojis displayed on iPhone, iPad, Mac, Apple Watch and Apple TV use the Apple Color Emoji font installed on iOS, macOS, watchOS and tvOS. Some Apple devices support Animoji and Memoji. Two Private Use Area characters are not cross-platform compatible but do work on Apple devices.
+    </div>
+    </div>
+
+  </div>
+
+    <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script src="prayer.js"> </script>
+
+
+  </body>
+</html>
+
   </body>
 </html>

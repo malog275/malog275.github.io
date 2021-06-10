@@ -9,5 +9,80 @@
     <img src="images/laughingcrying.png">
     <img src="images/laughingcrying.png">
 
+    <div class="home">
+    <a href="index.html"> HOME </a>
+    </div>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+    <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="title"> Tears of Joy </div>
+    <ul class="flex-container">
+      <li class="flex-item" id="apple"><img src="images/lc/apple.png"></li>
+      <li class="flex-item" id="emojidex"><img src="images/lc/emojidex.png"></li>
+      <li class="flex-item" id="fb"><img src="images/lc/fb.png"></li>
+      <li class="flex-item" id="google"><img src="images/lc/google.png"></li>
+      <li class="flex-item" id="joypixels"><img src="images/lc/joypixels.png"></li>
+      <li class="flex-item" id="microsoft"><img src="images/lc/microsoft.png"></li>
+      <li class="flex-item" id="openmoji"><img src="images/lc/openmoji.png"></li>
+      <li class="flex-item" id="samsung"><img src="images/lc/samsung.png"></li>
+      <li class="flex-item" id="twitter"><img src="images/lc/twitter.png"></li>
+      <li class="flex-item" id="whatsapp"><img src="images/lc/whatsapp.png"></li>
+
+    </ul>
+
+    <div class="info"> Info
+<br> <br>  A yellow face with a big grin, uplifted eyebrows, and smiling eyes, each shedding a tear from laughing so hard. Widely used to show something is funny or pleasing. Named the Oxford Dictionaries 2015 Word of the Year, and the most used emoji on all platforms from 2011-2021.
+
+See also: 🤣 Rolling on the Floor Laughing which expresses more intense laughter; or cat variant: 😹 Cat Face With Tears of Joy.
+
+Face with Tears of Joy was approved as part of Unicode 6.0 in 2010 and added to Emoji 1.0 in 2015.
+    </div>
+    <div class="program" id="program"> Apple <br> <br>
+Emojis displayed on iPhone, iPad, Mac, Apple Watch and Apple TV use the Apple Color Emoji font installed on iOS, macOS, watchOS and tvOS. Some Apple devices support Animoji and Memoji. Two Private Use Area characters are not cross-platform compatible but do work on Apple devices.
+    </div>
+    </div>
+
+  </div>
+
+    <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script src="prayer.js"> </script>
+
+
+  </body>
+</html>
+
   </body>
 </html>

@@ -9,5 +9,75 @@
     <img src="images/stars.png">
     <img src="images/stars.png">
 
+    <div class="home">
+    <a href="index.html"> HOME </a>
+    </div>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+
+  <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+    <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="title"> Sparkles </div>
+    <ul class="flex-container">
+      <li class="flex-item" id="apple"><img src="images/stars/apple.png"></li>
+      <li class="flex-item" id="emojidex"><img src="images/stars/emojidex.png"></li>
+      <li class="flex-item" id="fb"><img src="images/stars/fb.png"></li>
+      <li class="flex-item" id="google"><img src="images/stars/google.png"></li>
+      <li class="flex-item" id="joypixels"><img src="images/stars/joypixels.png"></li>
+      <li class="flex-item" id="microsoft"><img src="images/stars/microsoft.png"></li>
+      <li class="flex-item" id="openmoji"><img src="images/stars/openmoji.png"></li>
+      <li class="flex-item" id="samsung"><img src="images/stars/samsung.png"></li>
+      <li class="flex-item" id="twitter"><img src="images/stars/twitter.png"></li>
+      <li class="flex-item" id="whatsapp"><img src="images/stars/whatsapp.png"></li>
+
+    </ul>
+
+    <div class="info"> Info
+       <br> <br>  The glittering flashes of sparkles. Generally depicted as a cluster of three, yellow four-point stars, with one large sparkle and two small ones to its left or right.
+
+Commonly used to indicate various positive sentiments, including love, happiness, beauty, gratitude, and excitement. May also be used to convey newness or cleanliness. Sparkles was approved as part of Unicode 6.0 in 2010 and added to Emoji 1.0 in 2015.
+    </div>
+    <div class="program" id="program"> Apple <br> <br>  </br>
+  Emojis displayed on iPhone, iPad, Mac, Apple Watch and Apple TV use the Apple Color Emoji font installed on iOS, macOS, watchOS and tvOS. Some Apple devices support Animoji and Memoji. Two Private Use Area characters are not cross-platform compatible but do work on Apple devices.
+    </div>
+    </div>
+
+  </div>
+
+    <script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+  modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+  modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+  }
+  </script>
+  <script src="prayer.js"> </script>
+
+
   </body>
-</html>
+  </html>
